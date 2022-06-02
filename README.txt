@@ -20,7 +20,6 @@ Bible typing game:
 
 
 
-Give to Lauren and hide secret message
 
 Authorization: Token b213599462cff5585a8002f0f51f3c930335454f
 
