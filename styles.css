@@ -1,0 +1,95 @@
+:root {
+    --indigo-dye: #133c55;
+    --queen-blue: #386fa4;
+    --alice-blue: #f7fcff;
+    --screamin-green: #35FF69;
+}
+
+ /* Couls have white text */
+  /* https://coolors.co/133c55-35ff69-f7fcff */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--indigo-dye);
+  }
+  
+  body, .quote-input, .passage {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+  }
+  
+ .passage {
+    color: var(--queen-blue);
+    font-size: 2.1rem;
+
+    
+  }
+
+  .container {
+    background-color: var(--alice-blue);
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+    margin-top: 1rem;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: #59a5d8;
+    font-weight: bold;
+  }
+
+  .wpm {
+    position: absolute;
+    top: 10rem;
+    font-size: 2rem;
+    color: #59a5d8;
+  }
+  
+  .quote-display {
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+  }
+  
+  .quote-input {
+    background-color: transparent;
+    border: 2px solid var(--queen-blue);
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    resize: none;
+    padding: .5rem 1rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+  }
+  
+  .quote-input:focus {
+    border-color: black;
+  }
+  
+  .correct {
+    /* background-color: #C2FFD2; */
+
+    color: var(--screamin-green);
+
+  }
+  
+  .incorrect {
+    background-color: #FFEEEE;
+    color: red;
+    text-decoration: underline;
+  }
+
