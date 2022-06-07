@@ -29,8 +29,7 @@
  .passage {
     color: var(--queen-blue);
     font-size: 2.1rem;
-
-    
+    padding: 5px;
   }
 
   .container {
@@ -48,12 +47,20 @@
     font-size: 3rem;
     color: #59a5d8;
     font-weight: bold;
+    opacity: 0;
   }
 
   .wpm {
     position: absolute;
-    top: 10rem;
+    top: 15rem;
     font-size: 2rem;
+    color: #59a5d8;
+  }
+
+  .title {
+    position: absolute;
+    top: 7rem;
+    font-size: 3rem;
     color: #59a5d8;
   }
   
